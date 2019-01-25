@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Dominik Montada <dominikm@archway.co.jp> @ Archway",
+    "classifications": [ "Web", "SPA" ],
+    "identity": "Node.Modules.Bug",
+    "name": "Node Modules Bug",
+    "shortName": "bug-template",
+    "tags": {
+        "language": "Vue.js",
+        "type": "item"
+    },
+    "sourceName": "bug-template",
+    "preferNameDirectory": true,
+    "sources": [
+        {
+            "exclude": [
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                "**/dist/**",
+                "**/node_modules/**",
+                ".template.config/**/*",
+                "**/*.filelist",
+                "**/*.user",
+                "**/*.lock.json",
+                "**/*.lock"
+            ]
+        }
+    ]
+}
